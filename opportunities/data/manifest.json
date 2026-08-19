@@ -1,0 +1,95 @@
+{
+  "updated": "2026-08-19",
+  "lists": [
+    {
+      "slug": "eu-visa",
+      "title": "European Tech Visa Sponsorship",
+      "group": "visa",
+      "source": "https://docs.google.com/spreadsheets/d/13Q8-g51jan_e2ISx-yAFkXU2uW0SNR7G-TeoNYxPIBs",
+      "count": 100,
+      "note": "",
+      "file": "eu-visa.json"
+    },
+    {
+      "slug": "us-visa",
+      "title": "US Tech Visa Sponsorship",
+      "group": "visa",
+      "source": "https://docs.google.com/spreadsheets/d/1XIQlzncaI9QdOIhjJ6BQOzqHLbRWzdll",
+      "count": 100,
+      "note": "",
+      "file": "us-visa.json"
+    },
+    {
+      "slug": "jp-visa",
+      "title": "Japan Tech Visa Sponsorship",
+      "group": "visa",
+      "source": "https://docs.google.com/spreadsheets/d/1LGlwuZKe0-6UnHpX2ATUFmUZNKflLJEj",
+      "count": 100,
+      "note": "",
+      "file": "jp-visa.json"
+    },
+    {
+      "slug": "remote-150",
+      "title": "150 Remote Companies Hiring",
+      "group": "remote",
+      "source": "https://docs.google.com/spreadsheets/d/18bljq3y5YTxPLmA4xj10EaKxs1KWhIdLTr8bF1K5XKI",
+      "count": 146,
+      "note": "",
+      "file": "remote-150.json"
+    },
+    {
+      "slug": "remote-100",
+      "title": "100% Remote Hiring Companies",
+      "group": "remote",
+      "source": "https://docs.google.com/spreadsheets/d/1CLTL5PoQ99tbxQ5qbj2ScxqbzS0ASr0Qm0b1wjOot9I",
+      "count": 35,
+      "note": "",
+      "file": "remote-100.json"
+    },
+    {
+      "slug": "sf-bay",
+      "title": "San Francisco Bay Area Companies",
+      "group": "startups",
+      "source": "https://docs.google.com/spreadsheets/d/1rZ5P0FNKGyysfbXuWksN1jLM2aCAPsQa7TCAsXkNlmA",
+      "count": 439,
+      "note": "",
+      "file": "sf-bay.json"
+    },
+    {
+      "slug": "funded-1500",
+      "title": "1500+ Recently Funded Startups",
+      "group": "startups",
+      "source": "https://docs.google.com/spreadsheets/d/1w11kuIGWOVATOad5acQqVWSzELF25xCyP6j3yoBiEUc",
+      "count": 1540,
+      "note": "Public export splits the list: a concatenated header block plus structured rows. Snapshot unions both (~1500 websites).",
+      "file": "funded-1500.json"
+    },
+    {
+      "slug": "india-dsml",
+      "title": "Indian Startups Hiring Freshers (DS / ML / AI, 2026)",
+      "group": "startups",
+      "source": "https://docs.google.com/spreadsheets/d/1XIbZFfVN8pPJjx0x4FhUijItsjQlIOLggS53u34Mj-E",
+      "count": 28,
+      "note": "",
+      "file": "india-dsml.json"
+    },
+    {
+      "slug": "india-robotics",
+      "title": "Indian Robotics Startups",
+      "group": "startups",
+      "source": "https://docs.google.com/spreadsheets/d/17N8A1pRDgj8Zgj-vYsPT0qlQ6yDdePE_",
+      "count": 101,
+      "note": "",
+      "file": "india-robotics.json"
+    },
+    {
+      "slug": "hidden-1300",
+      "title": "Hidden Companies Hiring",
+      "group": "startups",
+      "source": "https://docs.google.com/spreadsheets/d/1_71AwBP4lv3yCBHjfbYbZ1gqNWMQht0JRPB6H7y9_Mg",
+      "count": 1329,
+      "note": "Upstream author marked this spreadsheet as no longer updated.",
+      "file": "hidden-1300.json"
+    }
+  ]
+}

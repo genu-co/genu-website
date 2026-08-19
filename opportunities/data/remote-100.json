@@ -1,0 +1,319 @@
+{
+  "slug": "remote-100",
+  "title": "100% Remote Hiring Companies",
+  "group": "remote",
+  "source": "https://docs.google.com/spreadsheets/d/1CLTL5PoQ99tbxQ5qbj2ScxqbzS0ASr0Qm0b1wjOot9I",
+  "updated": "2026-08-19",
+  "count": 35,
+  "note": "",
+  "columns": [
+    {
+      "key": "company",
+      "label": "Company"
+    },
+    {
+      "key": "website",
+      "label": "Website",
+      "type": "url"
+    },
+    {
+      "key": "linkedin",
+      "label": "LinkedIn",
+      "type": "url"
+    },
+    {
+      "key": "industry",
+      "label": "Industry"
+    },
+    {
+      "key": "location",
+      "label": "Headquarters"
+    },
+    {
+      "key": "founded",
+      "label": "Founded"
+    }
+  ],
+  "rows": [
+    {
+      "company": "Automattic",
+      "website": "https://automattic.com/work-with-us/",
+      "linkedin": "https://www.linkedin.com/company/automattic/",
+      "industry": "Software Development",
+      "location": "San Francisco, US",
+      "founded": "2005"
+    },
+    {
+      "company": "Awesome Motive",
+      "website": "https://awesomemotive.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/awesome-motive-inc./",
+      "industry": "Software Development",
+      "location": "West Palm Beach, Florida",
+      "founded": "2009"
+    },
+    {
+      "company": "Arkency",
+      "website": "https://arkency.com/join-our-team/",
+      "linkedin": "https://www.linkedin.com/company/arkency/",
+      "industry": "Software Development",
+      "location": "Wrocław",
+      "founded": "2007"
+    },
+    {
+      "company": "Lumenalta",
+      "website": "https://lumenalta.com/remote-jobs",
+      "linkedin": "https://www.linkedin.com/company/lumenalta/",
+      "industry": "IT Services and IT Consulting",
+      "location": "New York, New York",
+      "founded": "2000"
+    },
+    {
+      "company": "Buffer",
+      "website": "https://buffer.com/journey",
+      "linkedin": "https://www.linkedin.com/company/bufferapp/",
+      "industry": "Technology, Information and Internet",
+      "location": "San Francisco, CA",
+      "founded": "2010"
+    },
+    {
+      "company": "Close",
+      "website": "https://jobs.lever.co/close.io/",
+      "linkedin": "https://www.linkedin.com/company/close-crm/",
+      "industry": "Software Development",
+      "location": "San Francisco, California",
+      "founded": "2013"
+    },
+    {
+      "company": "Guilded",
+      "website": "https://www.guilded.gg/jobs",
+      "linkedin": "https://www.linkedin.com/company/guilded/",
+      "industry": "Computer Games",
+      "location": "San Francisco, CA",
+      "founded": "2017"
+    },
+    {
+      "company": "Doist",
+      "website": "https://doist.com/careers",
+      "linkedin": "https://www.linkedin.com/company/doist/",
+      "industry": "Software Development",
+      "location": "",
+      "founded": "2007"
+    },
+    {
+      "company": "Semaphore CI",
+      "website": "https://semaphoreci.com/hiring",
+      "linkedin": "https://www.linkedin.com/company/rendered-text/",
+      "industry": "Software Development",
+      "location": "Novi Sad, Vojvodina",
+      "founded": "2009"
+    },
+    {
+      "company": "DuckDuckGo",
+      "website": "https://duckduckgo.com/hiring",
+      "linkedin": "https://www.linkedin.com/company/duck-duck-go/about/",
+      "industry": "Software Development",
+      "location": "Paoli, PA",
+      "founded": "2008"
+    },
+    {
+      "company": "Buildkite",
+      "website": "https://buildkite.com/careers",
+      "linkedin": "https://www.linkedin.com/company/buildkite/",
+      "industry": "Software Development",
+      "location": "Melbourne, Victoria",
+      "founded": "2013"
+    },
+    {
+      "company": "Float",
+      "website": "https://www.float.com/careers",
+      "linkedin": "https://www.linkedin.com/company/float-schedule/",
+      "industry": "Software Development",
+      "location": "",
+      "founded": "2011"
+    },
+    {
+      "company": "Help Scout",
+      "website": "https://www.helpscout.com/company/careers/",
+      "linkedin": "https://www.linkedin.com/company/help-scout/",
+      "industry": "Technology, Information and Internet",
+      "location": "Boston, MA",
+      "founded": "2011"
+    },
+    {
+      "company": "Knack",
+      "website": "https://www.knack.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/knackhq/",
+      "industry": "Software Development",
+      "location": "US",
+      "founded": "2010"
+    },
+    {
+      "company": "GitLab",
+      "website": "https://about.gitlab.com/jobs/",
+      "linkedin": "https://www.linkedin.com/company/gitlab-com/",
+      "industry": "IT Services and IT Consulting",
+      "location": "San Francisco, California",
+      "founded": "2014"
+    },
+    {
+      "company": "10up",
+      "website": "https://10up.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/10up/",
+      "industry": "Technology, Information and Internet",
+      "location": "Remote Worldwide, OO",
+      "founded": "2011"
+    },
+    {
+      "company": "Bejamas",
+      "website": "https://bejamas.traffit.com/career/",
+      "linkedin": "https://www.linkedin.com/company/bejamas/",
+      "industry": "IT Services and IT Consulting",
+      "location": "Wrocław, Dolnośląskie",
+      "founded": "2018"
+    },
+    {
+      "company": "Kinsta",
+      "website": "https://kinsta.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/kinsta/",
+      "industry": "IT Services and IT Consulting",
+      "location": "West Hollywood, California",
+      "founded": "2013"
+    },
+    {
+      "company": "Lumos",
+      "website": "https://www.lumos.com/careers",
+      "linkedin": "https://www.linkedin.com/company/lumosidentity",
+      "industry": "Software Development",
+      "location": "Silicon Valley, California",
+      "founded": "2020"
+    },
+    {
+      "company": "Lightdash",
+      "website": "https://jobs.ashbyhq.com/lightdash",
+      "linkedin": "https://www.linkedin.com/company/lightdash/",
+      "industry": "Software Development",
+      "location": "San Francisco",
+      "founded": "2020"
+    },
+    {
+      "company": "Liveblocks",
+      "website": "https://join.team/liveblocks",
+      "linkedin": "https://www.linkedin.com/company/liveblocks/",
+      "industry": "Software Development",
+      "location": "San Francisco, US",
+      "founded": "2021"
+    },
+    {
+      "company": "Literal Humans",
+      "website": "https://literalhumans.com/team/",
+      "linkedin": "https://www.linkedin.com/company/literalhumans/",
+      "industry": "Marketing Services",
+      "location": "London, England",
+      "founded": "2020"
+    },
+    {
+      "company": "Mailbird",
+      "website": "https://careers.getmailbird.com/",
+      "linkedin": "https://www.linkedin.com/company/mailbird/",
+      "industry": "IT Services and IT Consulting",
+      "location": "Palo Alto, CA",
+      "founded": "2012"
+    },
+    {
+      "company": "MailerLite",
+      "website": "https://www.mailerlite.com/jobs",
+      "linkedin": "https://www.linkedin.com/company/mailerlite-international/",
+      "industry": "IT Services and IT Consulting",
+      "location": "San Francisco, California",
+      "founded": "2010"
+    },
+    {
+      "company": "X-Team",
+      "website": "https://jobs.x-team.com/",
+      "linkedin": "https://www.linkedin.com/company/x-team/",
+      "industry": "Software Development",
+      "location": "Chelsea, VIC",
+      "founded": "2004"
+    },
+    {
+      "company": "Omniscient Digital",
+      "website": "https://beomniscient.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/omniscient-digital/",
+      "industry": "Business Consulting and Services",
+      "location": "Austin, TX",
+      "founded": "2019"
+    },
+    {
+      "company": "Plus",
+      "website": "https://www.plusdocs.com/company",
+      "linkedin": "https://www.linkedin.com/company/plusdocs/",
+      "industry": "Software Development",
+      "location": "Seattle, Washington",
+      "founded": "2021"
+    },
+    {
+      "company": "Time Doctor",
+      "website": "https://www.timedoctor.com/jobs",
+      "linkedin": "https://www.linkedin.com/company/time-doctor/",
+      "industry": "Technology, Information and Internet",
+      "location": "Las Vegas, Nevada",
+      "founded": "2010"
+    },
+    {
+      "company": "Remote",
+      "website": "https://remote.com/careers",
+      "linkedin": "https://www.linkedin.com/company/remote.com/",
+      "industry": "Human Resources Services",
+      "location": "San Francisco, CA",
+      "founded": "2019"
+    },
+    {
+      "company": "Smile",
+      "website": "https://web.smile.io/careers",
+      "linkedin": "https://www.linkedin.com/company/smile.io/",
+      "industry": "IT Services and IT Consulting",
+      "location": "Waterloo, ON",
+      "founded": "2012"
+    },
+    {
+      "company": "SafetyWing",
+      "website": "https://safetywing.com/join-us",
+      "linkedin": "https://www.linkedin.com/company/safetywing/",
+      "industry": "Technology, Information and Internet",
+      "location": "Palo Alto, California",
+      "founded": "2018"
+    },
+    {
+      "company": "Sporty Group",
+      "website": "https://careers.sporty.com/",
+      "linkedin": "https://www.linkedin.com/company/sportygroup/",
+      "industry": "Spectator Sports",
+      "location": "London",
+      "founded": "2013"
+    },
+    {
+      "company": "Springworks",
+      "website": "https://www.springworks.in/culture/",
+      "linkedin": "https://www.linkedin.com/company/springrole/",
+      "industry": "Technology, Information and Internet",
+      "location": "Santa Monica, CA",
+      "founded": "2014"
+    },
+    {
+      "company": "The Shelf",
+      "website": "https://www.theshelf.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/the-shelf/",
+      "industry": "Marketing Services",
+      "location": "Atlanta, GA",
+      "founded": "2013"
+    },
+    {
+      "company": "TestGorilla",
+      "website": "https://www.testgorilla.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/testgorilla/",
+      "industry": "Human Resources Services",
+      "location": "Amsterdam, North Holland",
+      "founded": "2020"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "slug": "india-dsml",
+  "title": "Indian Startups Hiring Freshers (DS / ML / AI, 2026)",
+  "group": "startups",
+  "source": "https://docs.google.com/spreadsheets/d/1XIbZFfVN8pPJjx0x4FhUijItsjQlIOLggS53u34Mj-E",
+  "updated": "2026-08-19",
+  "count": 28,
+  "note": "",
+  "columns": [
+    {
+      "key": "company",
+      "label": "Company"
+    },
+    {
+      "key": "industry",
+      "label": "Industry"
+    },
+    {
+      "key": "location",
+      "label": "Location"
+    },
+    {
+      "key": "roles",
+      "label": "Focus / roles"
+    },
+    {
+      "key": "careers",
+      "label": "Careers",
+      "type": "url"
+    },
+    {
+      "key": "linkedin",
+      "label": "LinkedIn",
+      "type": "url"
+    },
+    {
+      "key": "website",
+      "label": "Website",
+      "type": "url"
+    },
+    {
+      "key": "notes",
+      "label": "Notes"
+    },
+    {
+      "key": "freshers",
+      "label": "Freshers"
+    },
+    {
+      "key": "salary",
+      "label": "Salary"
+    }
+  ],
+  "rows": [
+    {
+      "company": "Sarvam AI",
+      "industry": "Tier 1 - Foundational AI",
+      "location": "Bengaluru",
+      "roles": "Sovereign LLMs, Indic language GenAI (Sarvam-30B, 105B)",
+      "careers": "https://www.sarvam.ai/careers",
+      "linkedin": "https://www.linkedin.com/company/sarvam-ai",
+      "website": "https://www.sarvam.ai",
+      "notes": "careers@sarvam.ai ; also careers.kula.ai/sarvam-ai",
+      "freshers": "ML Eng (Speech AI), Forward Deployed Eng (RAG/ML), Backend - strong portfolios",
+      "salary": "15-30L + ESOPs"
+    },
+    {
+      "company": "Krutrim",
+      "industry": "Tier 1 - Foundational AI",
+      "location": "Bengaluru",
+      "roles": "Full-stack AI: LLMs + Bodhi AI chip + cloud (Ola group)",
+      "careers": "https://www.olakrutrim.com/careers",
+      "linkedin": "https://www.linkedin.com/company/krutrim",
+      "website": "https://www.olakrutrim.com",
+      "notes": "Planning 100+ AI engineering hires through 2026",
+      "freshers": "ML Engineer, AI Infra, LLM Engineer roles",
+      "salary": "12-30L + ESOPs"
+    },
+    {
+      "company": "AI4Bharat",
+      "industry": "Tier 1 - Research Lab",
+      "location": "Chennai (IIT Madras)",
+      "roles": "Open-source Indic language research; talent nursery",
+      "careers": "https://ai4bharat.iitm.ac.in",
+      "linkedin": "https://www.linkedin.com/company/ai4bharat",
+      "website": "https://ai4bharat.iitm.ac.in",
+      "notes": "Research internships -> FT conversions",
+      "freshers": "Research Engineer / Intern roles for strong students",
+      "salary": "Stipend + research credit"
+    },
+    {
+      "company": "Neysa",
+      "industry": "Tier 1 - AI Infrastructure",
+      "location": "Mumbai",
+      "roles": "AI-first cloud infrastructure (unicorn, ~$1.4B)",
+      "careers": "https://www.neysa.ai/careers",
+      "linkedin": "https://www.linkedin.com/company/neysa-networks",
+      "website": "https://www.neysa.ai",
+      "notes": "MLOps / AI Infra heavy",
+      "freshers": "MLOps Engineer, Platform Engineer",
+      "salary": "12-25L"
+    },
+    {
+      "company": "Qure.ai",
+      "industry": "Tier 2 - Applied AI",
+      "location": "Mumbai",
+      "roles": "Medical imaging AI; 3000+ sites globally",
+      "careers": "https://jobs.qure.ai",
+      "linkedin": "https://www.linkedin.com/company/qure-ai",
+      "website": "https://www.qure.ai",
+      "notes": "Deep learning for radiology; CV/ML roles",
+      "freshers": "ML Engineer, Data Scientist (healthcare)",
+      "salary": "10-20L"
+    },
+    {
+      "company": "Yellow.ai",
+      "industry": "Tier 2 - Applied AI",
+      "location": "Bengaluru",
+      "roles": "Conversational/agent AI for enterprises",
+      "careers": "https://yellow.ai/careers",
+      "linkedin": "https://www.linkedin.com/company/yellowdotai",
+      "website": "https://yellow.ai",
+      "notes": "NLP / LLM / Conversational AI",
+      "freshers": "ML Engineer, NLP Engineer",
+      "salary": "10-18L"
+    },
+    {
+      "company": "Haptik (Jio Haptik)",
+      "industry": "Tier 2 - Applied AI",
+      "location": "Mumbai",
+      "roles": "Conversational AI; one of India's oldest in space",
+      "careers": "https://www.haptik.ai/careers",
+      "linkedin": "https://www.linkedin.com/company/haptik",
+      "website": "https://www.haptik.ai",
+      "notes": "Backed by Reliance Jio",
+      "freshers": "Data Scientist, NLP Engineer",
+      "salary": "8-16L"
+    },
+    {
+      "company": "Gnani.ai",
+      "industry": "Tier 2 - Applied AI",
+      "location": "Bengaluru",
+      "roles": "Voice AI, speech recognition for BFSI/customer ops",
+      "careers": "https://gnani.ai/careers",
+      "linkedin": "https://www.linkedin.com/company/gnani-ai",
+      "website": "https://gnani.ai",
+      "notes": "Speech / ASR / NLP heavy",
+      "freshers": "Speech ML Engineer, Data Scientist",
+      "salary": "8-18L"
+    },
+    {
+      "company": "Observe.AI",
+      "industry": "Tier 2 - Applied AI",
+      "location": "Bengaluru / SF",
+      "roles": "Contact-center intelligence (speech + NLP)",
+      "careers": "https://www.observe.ai/careers",
+      "linkedin": "https://www.linkedin.com/company/observeai",
+      "website": "https://www.observe.ai",
+      "notes": "US-India hybrid culture",
+      "freshers": "ML Engineer, Applied Scientist",
+      "salary": "12-22L"
+    },
+    {
+      "company": "Mad Street Den (Vue.ai)",
+      "industry": "Tier 2 - Applied AI",
+      "location": "Chennai",
+      "roles": "Computer vision for retail",
+      "careers": "https://www.madstreetden.com/careers",
+      "linkedin": "https://www.linkedin.com/company/mad-street-den",
+      "website": "https://www.madstreetden.com",
+      "notes": "Pioneer in CV-for-retail",
+      "freshers": "Computer Vision Engineer, ML Engineer",
+      "salary": "10-18L"
+    },
+    {
+      "company": "Netomi",
+      "industry": "Tier 2 - Applied AI",
+      "location": "Gurugram",
+      "roles": "Customer-service AI",
+      "careers": "https://www.netomi.com/careers",
+      "linkedin": "https://www.linkedin.com/company/netomi",
+      "website": "https://www.netomi.com",
+      "notes": "Explicit fresher Data Scientist roles on Wellfound",
+      "freshers": "Junior Data Scientist, ML Engineer",
+      "salary": "8-15L"
+    },
+    {
+      "company": "Niramai",
+      "industry": "Tier 2 - Applied AI",
+      "location": "Bengaluru",
+      "roles": "AI-based breast cancer screening",
+      "careers": "https://www.niramai.com/careers",
+      "linkedin": "https://www.linkedin.com/company/niramai",
+      "website": "https://www.niramai.com",
+      "notes": "Healthcare AI, CV-heavy",
+      "freshers": "ML Engineer, Data Scientist",
+      "salary": "8-15L"
+    },
+    {
+      "company": "SigTuple",
+      "industry": "Tier 2 - Applied AI",
+      "location": "Bengaluru",
+      "roles": "AI for medical diagnostics (blood smear analysis)",
+      "careers": "https://sigtuple.com/careers",
+      "linkedin": "https://www.linkedin.com/company/sigtuple",
+      "website": "https://sigtuple.com",
+      "notes": "Deep learning for pathology",
+      "freshers": "Computer Vision, ML Engineer",
+      "salary": "8-15L"
+    },
+    {
+      "company": "Arya.ai",
+      "industry": "Tier 2 - Applied AI",
+      "location": "Mumbai",
+      "roles": "Financial AI / decision intelligence",
+      "careers": "https://arya.ai/careers",
+      "linkedin": "https://www.linkedin.com/company/arya-ai",
+      "website": "https://arya.ai",
+      "notes": "BFSI-focused",
+      "freshers": "ML Engineer, Data Scientist",
+      "salary": "8-15L"
+    },
+    {
+      "company": "Bolna",
+      "industry": "Tier 2 - Applied AI",
+      "location": "Bengaluru",
+      "roles": "Voice AI agents",
+      "careers": "https://www.bolna.ai/careers",
+      "linkedin": "https://www.linkedin.com/company/bolna-ai",
+      "website": "https://www.bolna.ai",
+      "notes": "Early stage, fast moving",
+      "freshers": "AI Engineer, Voice ML",
+      "salary": "10-20L + ESOPs"
+    },
+    {
+      "company": "Fractal Analytics",
+      "industry": "Tier 3 - Decision Science",
+      "location": "Mumbai / Bengaluru",
+      "roles": "Enterprise AI & decision science (~$1.6B valuation)",
+      "careers": "https://fractal.ai/careers",
+      "linkedin": "https://www.linkedin.com/company/fractal-analytics",
+      "website": "https://fractal.ai",
+      "notes": "Most fresher-friendly large analytics firm",
+      "freshers": "Analyst, Decision Scientist programs",
+      "salary": "6-12L"
+    },
+    {
+      "company": "Tiger Analytics",
+      "industry": "Tier 3 - Decision Science",
+      "location": "Chennai / Bengaluru",
+      "roles": "Advanced analytics & AI consulting",
+      "careers": "https://www.tigeranalytics.com/about-us/current-openings/",
+      "linkedin": "https://www.linkedin.com/company/tiger-analytics",
+      "website": "https://www.tigeranalytics.com",
+      "notes": "Heavy fresher hiring",
+      "freshers": "Analyst, Data Scientist",
+      "salary": "6-12L"
+    },
+    {
+      "company": "Mu Sigma",
+      "industry": "Tier 3 - Decision Science",
+      "location": "Bengaluru",
+      "roles": "Decision sciences pioneer",
+      "careers": "https://www.mu-sigma.com/careers",
+      "linkedin": "https://www.linkedin.com/company/mu-sigma",
+      "website": "https://www.mu-sigma.com",
+      "notes": "Famous Decision Scientist fresher program",
+      "freshers": "Decision Scientist (entry-level)",
+      "salary": "6-10L"
+    },
+    {
+      "company": "LatentView Analytics",
+      "industry": "Tier 3 - Decision Science",
+      "location": "Chennai",
+      "roles": "Analytics + AI consulting (listed)",
+      "careers": "https://www.latentview.com/career/",
+      "linkedin": "https://www.linkedin.com/company/latentview-analytics",
+      "website": "https://www.latentview.com",
+      "notes": "Consistent campus intake",
+      "freshers": "Data Analyst, Data Scientist",
+      "salary": "6-10L"
+    },
+    {
+      "company": "Course5 Intelligence",
+      "industry": "Tier 3 - Decision Science",
+      "location": "Mumbai",
+      "roles": "Analytics + GenAI consulting",
+      "careers": "https://www.course5i.com/careers",
+      "linkedin": "https://www.linkedin.com/company/course5i",
+      "website": "https://www.course5i.com",
+      "notes": "Strong GenAI practice",
+      "freshers": "Analyst, Data Scientist",
+      "salary": "6-10L"
+    },
+    {
+      "company": "Razorpay",
+      "industry": "Tier 4 - Product Startup",
+      "location": "Bengaluru",
+      "roles": "Fintech; risk, fraud, recommendation ML",
+      "careers": "https://razorpay.com/jobs",
+      "linkedin": "https://www.linkedin.com/company/razorpay",
+      "website": "https://razorpay.com",
+      "notes": "Strong eng brand; needs strong portfolio",
+      "freshers": "Data Scientist, ML Engineer",
+      "salary": "12-20L"
+    },
+    {
+      "company": "CRED",
+      "industry": "Tier 4 - Product Startup",
+      "location": "Bengaluru",
+      "roles": "Fintech; underwriting, recsys, fraud ML",
+      "careers": "https://careers.cred.club/openings",
+      "linkedin": "https://www.linkedin.com/company/cred-club",
+      "website": "https://cred.club",
+      "notes": "Selective; portfolio + Kaggle helps",
+      "freshers": "Data Scientist, ML Engineer",
+      "salary": "15-25L"
+    },
+    {
+      "company": "Zomato / Blinkit",
+      "industry": "Tier 4 - Product Startup",
+      "location": "Gurugram",
+      "roles": "Food/quick-commerce; demand forecasting, recsys",
+      "careers": "https://www.zomato.com/careers",
+      "linkedin": "https://www.linkedin.com/company/zomato",
+      "website": "https://www.zomato.com",
+      "notes": "High-scale data problems",
+      "freshers": "Data Scientist, ML Engineer",
+      "salary": "12-22L"
+    },
+    {
+      "company": "Swiggy",
+      "industry": "Tier 4 - Product Startup",
+      "location": "Bengaluru",
+      "roles": "Food delivery; logistics, ETA, recsys",
+      "careers": "https://careers.swiggy.com",
+      "linkedin": "https://www.linkedin.com/company/swiggy",
+      "website": "https://www.swiggy.com",
+      "notes": "Hires fresh grads from Tier 1 colleges",
+      "freshers": "Data Scientist, ML Engineer",
+      "salary": "12-22L"
+    },
+    {
+      "company": "Meesho",
+      "industry": "Tier 4 - Product Startup",
+      "location": "Bengaluru",
+      "roles": "Social commerce; pricing, recsys, fraud",
+      "careers": "https://www.meesho.io/jobs",
+      "linkedin": "https://www.linkedin.com/company/meesho",
+      "website": "https://www.meesho.io",
+      "notes": "Active fresher hiring",
+      "freshers": "Data Scientist, ML Engineer",
+      "salary": "15-25L"
+    },
+    {
+      "company": "PhonePe",
+      "industry": "Tier 4 - Product Startup",
+      "location": "Bengaluru",
+      "roles": "Payments / fintech; fraud, risk, recsys",
+      "careers": "https://www.phonepe.com/careers",
+      "linkedin": "https://www.linkedin.com/company/phonepe",
+      "website": "https://www.phonepe.com",
+      "notes": "Walmart-backed",
+      "freshers": "Data Scientist, ML Engineer",
+      "salary": "15-25L"
+    },
+    {
+      "company": "Atlan",
+      "industry": "Tier 4 - Product Startup",
+      "location": "Delhi NCR",
+      "roles": "Data catalog / data ops platform",
+      "careers": "https://atlan.com/careers",
+      "linkedin": "https://www.linkedin.com/company/atlanhq",
+      "website": "https://atlan.com",
+      "notes": "Gartner Leader; ~$850M valuation",
+      "freshers": "Data Engineer, ML Engineer",
+      "salary": "12-22L"
+    },
+    {
+      "company": "Postman",
+      "industry": "Tier 4 - Product Startup",
+      "location": "Bengaluru",
+      "roles": "API platform; uses ML for dev tooling",
+      "careers": "https://www.postman.com/company/careers",
+      "linkedin": "https://www.linkedin.com/company/postman",
+      "website": "https://www.postman.com",
+      "notes": "Strong eng culture",
+      "freshers": "Data Scientist, ML Engineer",
+      "salary": "15-28L"
+    }
+  ]
+}

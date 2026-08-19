@@ -1,0 +1,756 @@
+{
+  "slug": "remote-150",
+  "title": "150 Remote Companies Hiring",
+  "group": "remote",
+  "source": "https://docs.google.com/spreadsheets/d/18bljq3y5YTxPLmA4xj10EaKxs1KWhIdLTr8bF1K5XKI",
+  "updated": "2026-08-19",
+  "count": 146,
+  "note": "",
+  "columns": [
+    {
+      "key": "company",
+      "label": "Company"
+    },
+    {
+      "key": "careers",
+      "label": "Careers",
+      "type": "url"
+    },
+    {
+      "key": "open_jobs",
+      "label": "Open remote jobs"
+    }
+  ],
+  "rows": [
+    {
+      "company": "Abacus Insights",
+      "careers": "https://abacusinsights.com/careers/",
+      "open_jobs": "4"
+    },
+    {
+      "company": "Akasha",
+      "careers": "https://hack.akasha.org/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Alley Interactive",
+      "careers": "https://alley.co/careers/",
+      "open_jobs": "2"
+    },
+    {
+      "company": "Anrok",
+      "careers": "https://www.anrok.com/careers#open-roles",
+      "open_jobs": "7"
+    },
+    {
+      "company": "Apollo",
+      "careers": "https://www.apollo.io/company/careers",
+      "open_jobs": "31"
+    },
+    {
+      "company": "Appfire",
+      "careers": "https://appfire.com/careers",
+      "open_jobs": "29"
+    },
+    {
+      "company": "Argyle",
+      "careers": "https://argyle.com/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Art & Logic",
+      "careers": "https://artandlogic.com/careers/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "AssemblyAI",
+      "careers": "https://www.assemblyai.com/careers",
+      "open_jobs": "6"
+    },
+    {
+      "company": "Astropad",
+      "careers": "https://astropad.com/about/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Awesome Motive",
+      "careers": "https://awesomemotive.com/career/",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Best Practical",
+      "careers": "https://bestpractical.com/careers",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Bevy Labs",
+      "careers": "https://www.bevy.com/jobs",
+      "open_jobs": "2"
+    },
+    {
+      "company": "Blumira",
+      "careers": "https://www.blumira.com/careers/",
+      "open_jobs": "3"
+    },
+    {
+      "company": "Boldly",
+      "careers": "https://boldly.com/jobs/",
+      "open_jobs": "2"
+    },
+    {
+      "company": "BookingSync",
+      "careers": "https://www.bookingsync.com/en/careers",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Brave",
+      "careers": "https://brave.com/careers/",
+      "open_jobs": "13"
+    },
+    {
+      "company": "Breeze Church",
+      "careers": "https://www.breezechms.com/careers",
+      "open_jobs": "3"
+    },
+    {
+      "company": "Bulb",
+      "careers": "https://angel.co/company/bulb-software/jobs",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Cabana Blockchain",
+      "careers": "https://cabanablockchain.com/careers",
+      "open_jobs": "2"
+    },
+    {
+      "company": "Campfire",
+      "careers": "https://www.campfirelabs.co/careers",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Canny",
+      "careers": "https://jobs.canny.io/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "CartKit",
+      "careers": "https://www.notion.so/Work-at-CartKit-b14d5aef3bae4061a9e3d7727e5cc471#1578125408d4478f84d9959139836164",
+      "open_jobs": "8"
+    },
+    {
+      "company": "Chartmetric",
+      "careers": "https://chartmetric.com/aboutus",
+      "open_jobs": "4"
+    },
+    {
+      "company": "Chatbot",
+      "careers": "https://www.chatbotpack.com/chatbot-jobs/",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Chromatic",
+      "careers": "https://chromatichq.com/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Civic Actions",
+      "careers": "https://civicactions.com/careers",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Clipboard Health",
+      "careers": "https://jobs.ashbyhq.com/clipboard?utm_source=careers",
+      "open_jobs": "42"
+    },
+    {
+      "company": "Cloudtalk",
+      "careers": "https://www.cloudtalk.io/jobs",
+      "open_jobs": "34"
+    },
+    {
+      "company": "Continu",
+      "careers": "https://www.continu.com/careers",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Cookly",
+      "careers": "https://careers.cookly.me/open-positions",
+      "open_jobs": "5"
+    },
+    {
+      "company": "Corelight",
+      "careers": "https://corelight.com/company/careers/",
+      "open_jobs": "33"
+    },
+    {
+      "company": "Counlty",
+      "careers": "https://www.linkedin.com/company/countly/jobs/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "CryptoKitties",
+      "careers": "https://www.cryptokitties.co/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Cycloid",
+      "careers": "https://www.cycloid.io/join-us",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Cypress",
+      "careers": "https://www.cypress.io/jobs/",
+      "open_jobs": "4"
+    },
+    {
+      "company": "Daily Kos (Kos Media)",
+      "careers": "https://www.dailykos.com/jobs/",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Data Automation",
+      "careers": "https://dataautomation.com/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Design Pickle",
+      "careers": "https://designpickle.com/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Deskpro",
+      "careers": "https://www.deskpro.com/careers/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "DialUp",
+      "careers": "https://dialup.com/about",
+      "open_jobs": "1"
+    },
+    {
+      "company": "DNSfilter",
+      "careers": "https://www.dnsfilter.com/careers",
+      "open_jobs": "3"
+    },
+    {
+      "company": "DNSimple",
+      "careers": "https://dnsimple.com/jobs",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Dozuki",
+      "careers": "https://www.dozuki.com/careers/",
+      "open_jobs": "4"
+    },
+    {
+      "company": "DuckDuckGo",
+      "careers": "https://duckduckgo.com/hiring/",
+      "open_jobs": "9"
+    },
+    {
+      "company": "Earnest",
+      "careers": "https://www.earnest.com/careers",
+      "open_jobs": "6"
+    },
+    {
+      "company": "Elevar",
+      "careers": "https://www.getelevar.com/careers/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Enigma",
+      "careers": "https://boards.greenhouse.io/enigmaio",
+      "open_jobs": "10"
+    },
+    {
+      "company": "Eon",
+      "careers": "https://job-boards.eu.greenhouse.io/eonio",
+      "open_jobs": "5"
+    },
+    {
+      "company": "Epic Industries",
+      "careers": "http://www.epicindustries.co.uk/careers",
+      "open_jobs": "2"
+    },
+    {
+      "company": "Fetch&Funnel",
+      "careers": "https://www.fetchfunnel.com/careers/",
+      "open_jobs": "4"
+    },
+    {
+      "company": "Fieldguide",
+      "careers": "https://www.fieldguide.io/careers",
+      "open_jobs": "29"
+    },
+    {
+      "company": "Files",
+      "careers": "https://www.files.com/jobs/now-hiring/",
+      "open_jobs": "11"
+    },
+    {
+      "company": "Firstbase",
+      "careers": "https://www.firstbase.io/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Float",
+      "careers": "https://www.float.com/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "FormAssembly",
+      "careers": "https://apply.workable.com/formassembly/",
+      "open_jobs": "3"
+    },
+    {
+      "company": "GetResponse",
+      "careers": "https://apply.workable.com/getresponse/",
+      "open_jobs": "7"
+    },
+    {
+      "company": "Gitbook",
+      "careers": "https://www.gitbook.com/about#open-roles",
+      "open_jobs": "4"
+    },
+    {
+      "company": "Going",
+      "careers": "https://www.going.com/careers#OP",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Graphy App",
+      "careers": "https://www.notion.so/Graphy-Careers-e2e39a1719b343928be38d7c85ab1b31",
+      "open_jobs": "3"
+    },
+    {
+      "company": "Gravity Forms",
+      "careers": "https://www.gravityforms.com/careers/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Growth Machine",
+      "careers": "https://www.growthmachine.com/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Heaps Digital Ventures",
+      "careers": "https://www.heapsdigitalventures.com/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Hippo Education",
+      "careers": "https://angel.co/company/hippo-education/jobs",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Hospital IQ",
+      "careers": "https://www.hospiq.com/careers/",
+      "open_jobs": "5"
+    },
+    {
+      "company": "Hubstaff",
+      "careers": "https://hubstaff.com/jobs",
+      "open_jobs": "7"
+    },
+    {
+      "company": "Huntress",
+      "careers": "https://www.huntress.com/company/careers",
+      "open_jobs": "28"
+    },
+    {
+      "company": "Igalia",
+      "careers": "https://www.igalia.com/jobs/",
+      "open_jobs": "8"
+    },
+    {
+      "company": "Infinity Software Development",
+      "careers": "https://www.infinity-software.com/careers",
+      "open_jobs": "3"
+    },
+    {
+      "company": "Inpsyde",
+      "careers": "https://inpsyde.com/en/remote-jobs/",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Input Logic",
+      "careers": "http://inputlogic.ca/careers",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Input Output",
+      "careers": "https://iohk.io/careers/",
+      "open_jobs": "8"
+    },
+    {
+      "company": "InterDax",
+      "careers": "https://www.interdax.com/careers/",
+      "open_jobs": "11"
+    },
+    {
+      "company": "Intuition Machines",
+      "careers": "https://hcaptcha.zohorecruit.com/jobs/Careers",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Invisible Technologies",
+      "careers": "https://jobs.breezy.hr/",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Kalepa Insurance",
+      "careers": "https://kalepainsurance.com/careers",
+      "open_jobs": "19"
+    },
+    {
+      "company": "Knock Homes",
+      "careers": "https://www.knock.com/careers",
+      "open_jobs": "2"
+    },
+    {
+      "company": "Knowde",
+      "careers": "https://www.knowde.com/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Ko-fi",
+      "careers": "https://more.ko-fi.com/careers",
+      "open_jobs": "3"
+    },
+    {
+      "company": "Last Call Media",
+      "careers": "https://lastcallmedia.com/careers",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Latchel",
+      "careers": "https://latchel.com/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "LegalNature",
+      "careers": "https://www.legalnature.com/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Level12",
+      "careers": "https://www.level12.io/careers/",
+      "open_jobs": "2"
+    },
+    {
+      "company": "LexBlog",
+      "careers": "https://www.lexblog.com/careers/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "MarsBased",
+      "careers": "https://marsbased.com/jobs/",
+      "open_jobs": "1"
+    },
+    {
+      "company": "MedStack",
+      "careers": "https://medstack.co/careers/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Meet Edgar",
+      "careers": "https://meetedgar.com/careers/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Metronome",
+      "careers": "https://metronome.com/company/careers#positions",
+      "open_jobs": "3"
+    },
+    {
+      "company": "MKG Marketing",
+      "careers": "https://mkgmarketinginc.com/about/jobs/#positions",
+      "open_jobs": "5"
+    },
+    {
+      "company": "Modern Tribe",
+      "careers": "https://tri.be/careers/",
+      "open_jobs": "2"
+    },
+    {
+      "company": "Netdata Inc.",
+      "careers": "https://careers.netdata.cloud/",
+      "open_jobs": "5"
+    },
+    {
+      "company": "Nightwatch",
+      "careers": "https://nightwatch.io/jobs/",
+      "open_jobs": "10"
+    },
+    {
+      "company": "Nova Credit",
+      "careers": "https://www.novacredit.com/careers",
+      "open_jobs": "5"
+    },
+    {
+      "company": "Nutrient",
+      "careers": "https://www.nutrient.io/company/careers",
+      "open_jobs": "11"
+    },
+    {
+      "company": "Nylas",
+      "careers": "https://www.nylas.com/company/jobs/",
+      "open_jobs": "4"
+    },
+    {
+      "company": "Octopus Deploy",
+      "careers": "https://octopus.com/company/careers",
+      "open_jobs": "19"
+    },
+    {
+      "company": "Oddball",
+      "careers": "https://oddball.io/jobs",
+      "open_jobs": "5"
+    },
+    {
+      "company": "OhmConnect",
+      "careers": "https://www.ohmconnect.com/about-us/jobs",
+      "open_jobs": "11"
+    },
+    {
+      "company": "OhMD",
+      "careers": "https://www.ohmd.com/careers/",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Olio",
+      "careers": "https://olioex.com/join-our-team/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Oomnitza",
+      "careers": "https://www.oomnitza.com/careers/open-positions/",
+      "open_jobs": "1"
+    },
+    {
+      "company": "OnceHub",
+      "careers": "https://www.oncehub.com/careers",
+      "open_jobs": "1"
+    },
+    {
+      "company": "OnTheGoSystems",
+      "careers": "https://www.onthegosystems.com/jobs/",
+      "open_jobs": "5"
+    },
+    {
+      "company": "Open Collective",
+      "careers": "https://opencollective.com/hiring",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Open Law Lab",
+      "careers": "http://www.openlawlib.org/careers/",
+      "open_jobs": "2"
+    },
+    {
+      "company": "Parabol",
+      "careers": "https://www.parabol.co/join",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Parknav",
+      "careers": "https://parknav.com/careers",
+      "open_jobs": "6"
+    },
+    {
+      "company": "Pelcro",
+      "careers": "https://www.pelcro.com/en/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Perfect Keto",
+      "careers": "https://perfectketo.com/careers/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Pexels",
+      "careers": "https://wellfound.com/company/pexels/jobs",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Ping Marketing",
+      "careers": "https://wellfound.com/company/ping-marketing-1/jobs",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Platform.sh",
+      "careers": "https://platform.sh/company/careers/",
+      "open_jobs": "7"
+    },
+    {
+      "company": "Playco",
+      "careers": "https://jobs.lever.co/playco",
+      "open_jobs": "0"
+    },
+    {
+      "company": "PocketSuite",
+      "careers": "https://wellfound.com/company/pocketsuite/jobs",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Prifina",
+      "careers": "https://www.prifina.com/join-our-team.html",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Prolific",
+      "careers": "https://www.prolific.co/careers/",
+      "open_jobs": "162"
+    },
+    {
+      "company": "Prospect",
+      "careers": "https://tryprospect.com/careers",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Pubstack",
+      "careers": "https://www.welcometothejungle.com/en/companies/pubstack-io",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Pulumi",
+      "careers": "https://www.pulumi.com/careers/",
+      "open_jobs": "3"
+    },
+    {
+      "company": "Ranker",
+      "careers": "https://blog.ranker.com/jobs?ref=foot",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Reaktiv Studios",
+      "careers": "https://reaktivstudios.com/jobs/",
+      "open_jobs": "4"
+    },
+    {
+      "company": "Reedsy",
+      "careers": "https://angel.co/reedsy/jobs",
+      "open_jobs": "13"
+    },
+    {
+      "company": "Replicate",
+      "careers": "https://replicate.com/about#join-us",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Rho AI",
+      "careers": "https://rhoimpact.com/careers/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Roadtrippers",
+      "careers": "https://jobs.roadtrippers.com/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Rocket Chat",
+      "careers": "https://jobs.rocket.chat/careers",
+      "open_jobs": "2"
+    },
+    {
+      "company": "RocketAir",
+      "careers": "https://www.rocketair.com/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Rotunda Software",
+      "careers": "https://apply.workable.com/rotunda-software",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Routable",
+      "careers": "https://apply.workable.com/routable/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "SafeGraph",
+      "careers": "https://www.safegraph.com/careers#open-positions",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Sahara AI",
+      "careers": "https://saharalabs.ai/community/career",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Screenly",
+      "careers": "https://apply.workable.com/screenly/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Semaphore",
+      "careers": "https://semaphoreci.com/hiring",
+      "open_jobs": "3"
+    },
+    {
+      "company": "Semrush",
+      "careers": "https://careers.semrush.com/",
+      "open_jobs": "86"
+    },
+    {
+      "company": "ShrineDev",
+      "careers": "https://shrinedev.com/careers/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Sked Social",
+      "careers": "https://skedsocial.com/careers/",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Socket",
+      "careers": "https://socket.dev/careers#open-roles",
+      "open_jobs": "18"
+    },
+    {
+      "company": "Sortly",
+      "careers": "https://sortly-inc.breezy.hr/?",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Staffcloud",
+      "careers": "https://www.staff.cloud/en/about#jobs",
+      "open_jobs": "0"
+    },
+    {
+      "company": "StrongDM",
+      "careers": "https://www.strongdm.com/careers",
+      "open_jobs": "0"
+    },
+    {
+      "company": "TalkJS",
+      "careers": "https://talkjs.com/jobs/",
+      "open_jobs": "6"
+    },
+    {
+      "company": "Thatch",
+      "careers": "https://thatch.ai/jobs",
+      "open_jobs": "12"
+    },
+    {
+      "company": "Tomedes",
+      "careers": "https://www.tomedes.com/careers",
+      "open_jobs": "1"
+    },
+    {
+      "company": "Upbound",
+      "careers": "https://www.upbound.io/careers#working-with-us",
+      "open_jobs": "10"
+    },
+    {
+      "company": "UpMetrics",
+      "careers": "https://www.upmetrics.com/careers.html",
+      "open_jobs": "0"
+    },
+    {
+      "company": "Veridian",
+      "careers": "https://veridian.info/careers/",
+      "open_jobs": "4"
+    }
+  ]
+}

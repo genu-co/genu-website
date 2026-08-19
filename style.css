@@ -423,6 +423,228 @@
   color: var(--dl-color-default-darkred);
 }
 
+/* ---------- Opportunities ---------- */
+.opp-page {
+  padding: var(--dl-space-space-fourunits) 0 var(--dl-space-space-fiveunits);
+}
+
+.opp-hero h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+.opp-hero .section-lede {
+  max-width: 720px;
+}
+
+.opp-disclaimer {
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  color: var(--dl-color-gray-500);
+  font-size: 13px;
+  line-height: 1.6;
+  max-width: 720px;
+}
+
+.opp-toolbar {
+  margin-top: var(--dl-space-space-twounits);
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-space-space-oneandhalfunits);
+}
+
+.opp-search {
+  width: 100%;
+  max-width: 420px;
+  padding: 12px 14px;
+  border: 1px solid var(--dl-color-gray-900);
+  border-radius: var(--dl-radius-radius-radius8);
+  font-size: 15px;
+}
+
+.opp-search:focus {
+  outline: 2px solid var(--dl-color-default-darkred);
+  outline-offset: 1px;
+}
+
+.opp-groups {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dl-space-space-unit);
+}
+
+.opp-group-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--dl-color-gray-500);
+  margin-bottom: 8px;
+}
+
+.opp-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.opp-tab {
+  padding: 8px 12px;
+  border: 1px solid var(--dl-color-gray-900);
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  background: var(--dl-color-gray-white);
+  cursor: pointer;
+  color: var(--dl-color-gray-black);
+}
+
+.opp-tab:hover {
+  border-color: var(--dl-color-default-darkred);
+}
+
+.opp-tab.is-active {
+  background: var(--dl-color-default-darkred);
+  border-color: var(--dl-color-default-darkred);
+  color: var(--dl-color-gray-white);
+}
+
+.opp-tab .opp-count {
+  font-weight: 400;
+  opacity: 0.75;
+}
+
+.opp-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 16px;
+  margin-top: var(--dl-space-space-twounits);
+  font-size: 13px;
+  color: var(--dl-color-gray-500);
+}
+
+.opp-meta a {
+  color: var(--dl-color-default-darkred);
+  font-weight: 600;
+}
+
+.opp-note {
+  width: 100%;
+  font-size: 13px;
+  color: var(--dl-color-gray-500);
+}
+
+.opp-table-wrap {
+  margin-top: var(--dl-space-space-unit);
+  overflow-x: auto;
+  border: 1px solid var(--dl-color-gray-900);
+  border-radius: var(--dl-radius-radius-radius8);
+}
+
+.opp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.opp-table th,
+.opp-table td {
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--dl-color-gray-900);
+}
+
+.opp-table th {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--dl-color-gray-500);
+  background: rgba(0, 0, 0, 0.02);
+  white-space: nowrap;
+}
+
+.opp-table tr:last-child td {
+  border-bottom: none;
+}
+
+.opp-table tbody tr:hover td {
+  background: rgba(158, 3, 3, 0.03);
+}
+
+.opp-table .cell-company {
+  font-weight: 600;
+  min-width: 140px;
+}
+
+.opp-table .cell-muted {
+  color: var(--dl-color-gray-500);
+}
+
+.opp-table .cell-wide {
+  min-width: 180px;
+  max-width: 320px;
+}
+
+.opp-table a {
+  color: var(--dl-color-default-darkred);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.opp-empty,
+.opp-status {
+  margin-top: var(--dl-space-space-twounits);
+  color: var(--dl-color-gray-500);
+  font-size: 15px;
+}
+
+.opp-pager {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: var(--dl-space-space-unit);
+  font-size: 13px;
+  color: var(--dl-color-gray-500);
+}
+
+.opp-pager button {
+  padding: 8px 14px;
+  border: 1px solid var(--dl-color-gray-900);
+  border-radius: var(--dl-radius-radius-radius8);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.opp-pager button:hover:not(:disabled) {
+  border-color: var(--dl-color-default-darkred);
+}
+
+.opp-pager button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+@media (max-width: 680px) {
+  .opp-table .col-notes,
+  .opp-table .col-min_exp,
+  .opp-table .col-relocation,
+  .opp-table .col-comments,
+  .opp-table .col-extra_note,
+  .opp-table .col-founders {
+    display: none;
+  }
+}
+
 /* ---------- Simple content pages (privacy policy) ---------- */
 .page-content {
   max-width: 760px;
