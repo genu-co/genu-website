@@ -8,24 +8,20 @@
       name="description"
       content="Browse visa-sponsoring tech companies, remote employers, and recently funded startups — a static snapshot curated for easier searching than the original spreadsheets."
     />
+    <link rel="canonical" href="https://genu.cm/opportunities/" />
+    <link rel="alternate" hreflang="en" href="https://genu.cm/opportunities/" />
+    <link rel="alternate" hreflang="fr" href="https://genu.cm/opportunite/" />
+    <link rel="alternate" hreflang="x-default" href="https://genu.cm/opportunities/" />
     <meta property="twitter:card" content="summary_large_image" />
 
     <style data-tag="reset-style-sheet">
       html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
     </style>
     <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
+      html { font-family: Inter; font-size: 16px; }
       body {
-        font-weight: 400;
-        font-style: normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
+        font-weight: 400; font-style: normal; text-decoration: none;
+        text-transform: none; letter-spacing: normal; line-height: 1.15;
         color: var(--dl-color-gray-black);
         background-color: var(--dl-color-gray-white);
       }
@@ -49,16 +45,22 @@
         <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
 
         <ul class="site-nav-links">
-          <li><a href="../index.html#about">About</a></li>
-          <li><a href="../index.html#services">Services</a></li>
-          <li><a href="./">Opportunities</a></li>
-          <li><a href="../index.html#contact">Contact</a></li>
+          <li><a href="../index.html#about" data-i18n="navAbout">About</a></li>
+          <li><a href="../index.html#services" data-i18n="navServices">Services</a></li>
+          <li><a href="/opportunities/" data-opp-self data-i18n="navOpportunities">Opportunities</a></li>
+          <li><a href="../index.html#contact" data-i18n="navContact">Contact</a></li>
+          <li class="lang-switch">
+            <a href="/opportunite/" data-lang-link="fr" lang="fr">FR</a>
+            <span aria-hidden="true">/</span>
+            <a href="/opportunities/" data-lang-link="en" lang="en">EN</a>
+          </li>
           <li>
             <a
               class="site-nav-cta"
               href="https://wa.me/237681498939"
               target="_blank"
               rel="noopener"
+              data-i18n="navWhatsapp"
               >Chat on WhatsApp</a
             >
           </li>
@@ -69,12 +71,12 @@
     <main class="opp-page">
       <div class="container">
         <header class="opp-hero">
-          <h1>Opportunities</h1>
-          <p class="section-lede">
+          <h1 data-i18n="heading">Opportunities</h1>
+          <p class="section-lede" data-i18n="lede">
             Visa sponsorship, remote roles, and freshly funded startups —
             searchable in one place instead of a pile of Google Sheets.
           </p>
-          <p class="opp-disclaimer">
+          <p class="opp-disclaimer" data-i18n="disclaimer">
             A static snapshot of public lists. Genu does not run a job board
             and does not verify openings. Always check the company careers
             page before you apply. Sources are third-party spreadsheets;
@@ -83,11 +85,12 @@
         </header>
 
         <div class="opp-toolbar">
-          <label class="visually-hidden" for="opp-search">Search companies</label>
+          <label class="visually-hidden" for="opp-search" data-i18n="searchLabel">Search companies</label>
           <input
             id="opp-search"
             class="opp-search"
             type="search"
+            data-i18n-placeholder="searchPlaceholder"
             placeholder="Search company, city, stack, visa…"
             autocomplete="off"
           />
@@ -95,8 +98,8 @@
         </div>
 
         <div class="opp-meta">
-          <span id="opp-status" aria-live="polite">Loading lists…</span>
-          <a id="opp-source" href="#" target="_blank" rel="noopener">Original spreadsheet</a>
+          <span id="opp-status" aria-live="polite" data-i18n="loading">Loading lists…</span>
+          <a id="opp-source" href="#" target="_blank" rel="noopener" data-i18n="source">Original spreadsheet</a>
           <p id="opp-note" class="opp-note" hidden></p>
         </div>
 
@@ -106,11 +109,11 @@
             <tbody id="opp-body"></tbody>
           </table>
         </div>
-        <p id="opp-empty" class="opp-empty" hidden>No companies match that search.</p>
+        <p id="opp-empty" class="opp-empty" hidden data-i18n="empty">No companies match that search.</p>
         <div id="opp-pager" class="opp-pager" hidden>
-          <button type="button" id="opp-prev">Previous</button>
+          <button type="button" id="opp-prev" data-i18n="prev">Previous</button>
           <span id="opp-page-label"></span>
-          <button type="button" id="opp-next">Next</button>
+          <button type="button" id="opp-next" data-i18n="next">Next</button>
         </div>
       </div>
     </main>
@@ -120,8 +123,8 @@
         <span>© 2026 Genu</span>
         <div class="site-footer-links">
           <a href="mailto:hello@genu.cm">hello@genu.cm</a>
-          <a href="./">Opportunities</a>
-          <a href="../privacy.html">Privacy Policy</a>
+          <a href="/opportunities/" data-opp-self data-i18n="navOpportunities">Opportunities</a>
+          <a href="../privacy.html" data-i18n="navPrivacy">Privacy Policy</a>
         </div>
       </div>
     </footer>
@@ -139,290 +142,6 @@
         border: 0;
       }
     </style>
-
-    <script>
-      (function () {
-        var PAGE_SIZE = 50;
-        var GROUP_LABELS = {
-          visa: "Visa sponsorship",
-          remote: "Remote",
-          startups: "Startups",
-        };
-        var LINK_LABELS = {
-          careers: "Careers",
-          linkedin: "LinkedIn",
-          website: "Website",
-        };
-        var WIDE = {
-          roles: 1,
-          notes: 1,
-          comments: 1,
-          extra_note: 1,
-          industry: 1,
-        };
-
-        var state = {
-          manifest: null,
-          slug: null,
-          list: null,
-          query: "",
-          page: 1,
-          cache: {},
-        };
-
-        var els = {
-          groups: document.getElementById("opp-groups"),
-          search: document.getElementById("opp-search"),
-          status: document.getElementById("opp-status"),
-          source: document.getElementById("opp-source"),
-          note: document.getElementById("opp-note"),
-          wrap: document.getElementById("opp-table-wrap"),
-          head: document.getElementById("opp-head"),
-          body: document.getElementById("opp-body"),
-          empty: document.getElementById("opp-empty"),
-          pager: document.getElementById("opp-pager"),
-          prev: document.getElementById("opp-prev"),
-          next: document.getElementById("opp-next"),
-          pageLabel: document.getElementById("opp-page-label"),
-        };
-
-        function escapeHtml(value) {
-          return String(value)
-            .replace(/&/g, "&amp;")
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;")
-            .replace(/"/g, "&quot;");
-        }
-
-        function formatDate(iso) {
-          if (!iso) return "";
-          var d = new Date(iso + "T00:00:00");
-          if (isNaN(d.getTime())) return iso;
-          return d.toLocaleDateString("en-GB", {
-            day: "numeric",
-            month: "short",
-            year: "numeric",
-          });
-        }
-
-        function filteredRows() {
-          var rows = state.list.rows || [];
-          var q = state.query.trim().toLowerCase();
-          if (!q) return rows;
-          return rows.filter(function (row) {
-            return Object.keys(row).some(function (key) {
-              var val = row[key];
-              return val && String(val).toLowerCase().indexOf(q) !== -1;
-            });
-          });
-        }
-
-        function renderTabs() {
-          var groups = { visa: [], remote: [], startups: [] };
-          state.manifest.lists.forEach(function (item) {
-            if (groups[item.group]) groups[item.group].push(item);
-            else groups.startups.push(item);
-          });
-          els.groups.innerHTML = "";
-          Object.keys(GROUP_LABELS).forEach(function (group) {
-            var items = groups[group];
-            if (!items.length) return;
-            var block = document.createElement("div");
-            var label = document.createElement("span");
-            label.className = "opp-group-label";
-            label.textContent = GROUP_LABELS[group];
-            var tabs = document.createElement("div");
-            tabs.className = "opp-tabs";
-            items.forEach(function (item) {
-              var btn = document.createElement("button");
-              btn.type = "button";
-              btn.className =
-                "opp-tab" + (item.slug === state.slug ? " is-active" : "");
-              btn.innerHTML =
-                escapeHtml(item.title) +
-                ' <span class="opp-count">' +
-                item.count +
-                "</span>";
-              btn.addEventListener("click", function () {
-                if (item.slug !== state.slug) selectList(item.slug, true);
-              });
-              tabs.appendChild(btn);
-            });
-            block.appendChild(label);
-            block.appendChild(tabs);
-            els.groups.appendChild(block);
-          });
-        }
-
-        function cellHtml(col, row) {
-          var value = row[col.key];
-          if (!value) return '<span class="cell-muted">—</span>';
-          if (col.type === "url") {
-            return (
-              '<a href="' +
-              escapeHtml(value) +
-              '" target="_blank" rel="noopener">' +
-              escapeHtml(LINK_LABELS[col.key] || "Link") +
-              "</a>"
-            );
-          }
-          return escapeHtml(value);
-        }
-
-        function visibleColumns(list) {
-          var cols = list.columns || [];
-          var rows = list.rows || [];
-          return cols.filter(function (col) {
-            if (col.key === "company") return true;
-            return rows.some(function (row) {
-              return row[col.key];
-            });
-          });
-        }
-
-        function renderTable() {
-          if (!state.list) return;
-          var columns = visibleColumns(state.list);
-          var rows = filteredRows();
-          var pages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
-          if (state.page > pages) state.page = pages;
-          var start = (state.page - 1) * PAGE_SIZE;
-          var slice = rows.slice(start, start + PAGE_SIZE);
-
-          els.head.innerHTML =
-            "<tr>" +
-            columns
-              .map(function (col) {
-                return (
-                  '<th class="col-' +
-                  escapeHtml(col.key) +
-                  '">' +
-                  escapeHtml(col.label) +
-                  "</th>"
-                );
-              })
-              .join("") +
-            "</tr>";
-
-          els.body.innerHTML = slice
-            .map(function (row) {
-              return (
-                "<tr>" +
-                columns
-                  .map(function (col) {
-                    var cls = "col-" + col.key;
-                    if (col.key === "company") cls += " cell-company";
-                    if (WIDE[col.key]) cls += " cell-wide";
-                    return '<td class="' + cls + '">' + cellHtml(col, row) + "</td>";
-                  })
-                  .join("") +
-                "</tr>"
-              );
-            })
-            .join("");
-
-          var shown = rows.length;
-          var total = (state.list.rows || []).length;
-          var range =
-            shown === 0
-              ? "0"
-              : start + 1 + "–" + (start + slice.length);
-          els.status.textContent =
-            shown +
-            (state.query ? " match" + (shown === 1 ? "" : "es") : " companies") +
-            (state.query ? " of " + total : "") +
-            " · snapshot " +
-            formatDate(state.list.updated || state.manifest.updated);
-
-          els.source.href = state.list.source || "#";
-          els.source.hidden = !state.list.source;
-
-          if (state.list.note) {
-            els.note.hidden = false;
-            els.note.textContent = state.list.note;
-          } else {
-            els.note.hidden = true;
-            els.note.textContent = "";
-          }
-
-          els.wrap.hidden = slice.length === 0;
-          els.empty.hidden = slice.length !== 0;
-          els.pager.hidden = shown <= PAGE_SIZE;
-          els.prev.disabled = state.page <= 1;
-          els.next.disabled = state.page >= pages;
-          els.pageLabel.textContent =
-            "Page " + state.page + " of " + pages + " · " + range;
-        }
-
-        function selectList(slug, pushHash) {
-          state.slug = slug;
-          state.page = 1;
-          renderTabs();
-          if (pushHash) {
-            history.replaceState(null, "", "#" + slug);
-          }
-          if (state.cache[slug]) {
-            state.list = state.cache[slug];
-            renderTable();
-            return;
-          }
-          els.status.textContent = "Loading…";
-          fetch("data/" + slug + ".json")
-            .then(function (res) {
-              if (!res.ok) throw new Error("Could not load list");
-              return res.json();
-            })
-            .then(function (data) {
-              state.cache[slug] = data;
-              if (state.slug !== slug) return;
-              state.list = data;
-              renderTable();
-            })
-            .catch(function () {
-              els.status.textContent = "Could not load this list.";
-              els.wrap.hidden = true;
-            });
-        }
-
-        els.search.addEventListener("input", function () {
-          state.query = els.search.value;
-          state.page = 1;
-          renderTable();
-        });
-        els.prev.addEventListener("click", function () {
-          state.page -= 1;
-          renderTable();
-          els.wrap.scrollIntoView({ block: "start" });
-        });
-        els.next.addEventListener("click", function () {
-          state.page += 1;
-          renderTable();
-          els.wrap.scrollIntoView({ block: "start" });
-        });
-
-        fetch("data/manifest.json")
-          .then(function (res) {
-            if (!res.ok) throw new Error("missing manifest");
-            return res.json();
-          })
-          .then(function (manifest) {
-            state.manifest = manifest;
-            var wanted = (location.hash || "").replace(/^#/, "");
-            var slugs = manifest.lists.map(function (item) {
-              return item.slug;
-            });
-            var initial = slugs.indexOf(wanted) !== -1 ? wanted : slugs[0];
-            selectList(initial, false);
-          })
-          .catch(function () {
-            els.status.textContent = "Could not load opportunities data.";
-          });
-
-        window.addEventListener("hashchange", function () {
-          var slug = (location.hash || "").replace(/^#/, "");
-          if (slug && slug !== state.slug) selectList(slug, false);
-        });
-      })();
-    </script>
+    <script src="/opportunities/app.js" defer></script>
   </body>
 </html>

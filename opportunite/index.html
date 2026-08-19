@@ -1,16 +1,147 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8" />
     <title>Opportunités — Genu</title>
-    <meta name="robots" content="noindex" />
-    <link rel="canonical" href="https://genu.cm/opportunities/" />
-    <meta http-equiv="refresh" content="0; url=/opportunities/" />
-    <script>
-      location.replace("/opportunities/" + location.search + location.hash);
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Parcourir des entreprises tech qui sponsorisent un visa, des employeurs remote et des startups fraîchement financées — un instantané statique, plus simple à fouiller que les tableurs d’origine."
+    />
+    <link rel="canonical" href="https://genu.cm/opportunite/" />
+    <link rel="alternate" hreflang="en" href="https://genu.cm/opportunities/" />
+    <link rel="alternate" hreflang="fr" href="https://genu.cm/opportunite/" />
+    <link rel="alternate" hreflang="x-default" href="https://genu.cm/opportunities/" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html { font-family: Inter; font-size: 16px; }
+      body {
+        font-weight: 400; font-style: normal; text-decoration: none;
+        text-transform: none; letter-spacing: normal; line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <p><a href="/opportunities/">Continuer vers Opportunities</a></p>
+    <header class="site-nav">
+      <div class="container site-nav-inner">
+        <a href="../index.html" class="site-nav-brand">
+          <img src="../public/playground_assets/logoi496-clbn.svg" alt="Genu" />
+          Genu
+        </a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+
+        <ul class="site-nav-links">
+          <li><a href="../index.html#about" data-i18n="navAbout">À propos</a></li>
+          <li><a href="../index.html#services" data-i18n="navServices">Services</a></li>
+          <li><a href="/opportunite/" data-opp-self data-i18n="navOpportunities">Opportunités</a></li>
+          <li><a href="../index.html#contact" data-i18n="navContact">Contact</a></li>
+          <li class="lang-switch">
+            <a href="/opportunite/" data-lang-link="fr" lang="fr">FR</a>
+            <span aria-hidden="true">/</span>
+            <a href="/opportunities/" data-lang-link="en" lang="en">EN</a>
+          </li>
+          <li>
+            <a
+              class="site-nav-cta"
+              href="https://wa.me/237681498939"
+              target="_blank"
+              rel="noopener"
+              data-i18n="navWhatsapp"
+              >Discuter sur WhatsApp</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="opp-page">
+      <div class="container">
+        <header class="opp-hero">
+          <h1 data-i18n="heading">Opportunités</h1>
+          <p class="section-lede" data-i18n="lede">
+            Sponsoring de visa, postes en remote et startups fraîchement financées —
+            consultables au même endroit, sans enchaîner les Google Sheets.
+          </p>
+          <p class="opp-disclaimer" data-i18n="disclaimer">
+            Instantané statique de listes publiques. Genu n’est pas un job board
+            et ne vérifie pas les offres. Vérifiez toujours la page carrières
+            de l’entreprise avant de postuler. Les sources sont des tableurs
+            tiers ; nous n’avons aucun lien avec leurs auteurs.
+          </p>
+        </header>
+
+        <div class="opp-toolbar">
+          <label class="visually-hidden" for="opp-search" data-i18n="searchLabel">Rechercher des entreprises</label>
+          <input
+            id="opp-search"
+            class="opp-search"
+            type="search"
+            data-i18n-placeholder="searchPlaceholder"
+            placeholder="Entreprise, ville, stack, visa…"
+            autocomplete="off"
+          />
+          <div id="opp-groups" class="opp-groups"></div>
+        </div>
+
+        <div class="opp-meta">
+          <span id="opp-status" aria-live="polite" data-i18n="loading">Chargement des listes…</span>
+          <a id="opp-source" href="#" target="_blank" rel="noopener" data-i18n="source">Tableur d’origine</a>
+          <p id="opp-note" class="opp-note" hidden></p>
+        </div>
+
+        <div id="opp-table-wrap" class="opp-table-wrap" hidden>
+          <table class="opp-table">
+            <thead id="opp-head"></thead>
+            <tbody id="opp-body"></tbody>
+          </table>
+        </div>
+        <p id="opp-empty" class="opp-empty" hidden data-i18n="empty">Aucune entreprise ne correspond à cette recherche.</p>
+        <div id="opp-pager" class="opp-pager" hidden>
+          <button type="button" id="opp-prev" data-i18n="prev">Précédent</button>
+          <span id="opp-page-label"></span>
+          <button type="button" id="opp-next" data-i18n="next">Suivant</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer-inner">
+        <span>© 2026 Genu</span>
+        <div class="site-footer-links">
+          <a href="mailto:hello@genu.cm">hello@genu.cm</a>
+          <a href="/opportunite/" data-opp-self data-i18n="navOpportunities">Opportunités</a>
+          <a href="../privacy.html" data-i18n="navPrivacy">Politique de confidentialité</a>
+        </div>
+      </div>
+    </footer>
+
+    <style>
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+    </style>
+    <script src="/opportunities/app.js" defer></script>
   </body>
 </html>
