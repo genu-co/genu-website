@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta
       name="description"
-      content="Browse visa-sponsoring tech companies, remote employers, and recently funded startups — a static snapshot curated for easier searching than the original spreadsheets."
+      content="Find your footing for work abroad: visa sponsors, remote employers, and recently funded startups — then go to the careers page."
     />
     <link rel="canonical" href="https://genu.cm/opportunities/" />
     <link rel="alternate" hreflang="en" href="https://genu.cm/opportunities/" />
@@ -73,25 +73,26 @@
         <header class="opp-hero">
           <h1 data-i18n="heading">Opportunities</h1>
           <p class="section-lede" data-i18n="lede">
-            Visa sponsorship, remote roles, and freshly funded startups —
-            searchable in one place instead of a pile of Google Sheets.
+            You are looking for work abroad. These lists help you get your
+            bearings: who sponsors a visa, who hires fully remote, which
+            startups just raised — and where to focus your applications.
           </p>
           <p class="opp-disclaimer" data-i18n="disclaimer">
-            A static snapshot of public lists. Genu does not run a job board
-            and does not verify openings. Always check the company careers
-            page before you apply. Sources are third-party spreadsheets;
-            we are not affiliated with their authors.
+            Start with the group that matches your constraint (visa, remote, or
+            freshly funded startups). In each list, search a city, a stack, or a
+            name, then open the careers page: that is what tells you whether a
+            role is still open.
           </p>
         </header>
 
         <div class="opp-toolbar">
-          <label class="visually-hidden" for="opp-search" data-i18n="searchLabel">Search companies</label>
+          <label class="visually-hidden" for="opp-search" data-i18n="searchLabel">Filter the list</label>
           <input
             id="opp-search"
             class="opp-search"
             type="search"
             data-i18n-placeholder="searchPlaceholder"
-            placeholder="Search company, city, stack, visa…"
+            placeholder="City, stack, visa, company…"
             autocomplete="off"
           />
           <div id="opp-groups" class="opp-groups"></div>
@@ -142,6 +143,6 @@
         border: 0;
       }
     </style>
-    <script src="/opportunities/app.js" defer></script>
+    <script src="/opportunities/app.js?v=2" defer></script>
   </body>
 </html>

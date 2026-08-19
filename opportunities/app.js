@@ -8,7 +8,7 @@
       htmlLang: "en",
       title: "Opportunities — Genu",
       description:
-        "Browse visa-sponsoring tech companies, remote employers, and recently funded startups — a static snapshot curated for easier searching than the original spreadsheets.",
+        "Find your footing for work abroad: visa sponsors, remote employers, and recently funded startups — then go to the careers page.",
       navAbout: "About",
       navServices: "Services",
       navOpportunities: "Opportunities",
@@ -17,11 +17,11 @@
       navPrivacy: "Privacy Policy",
       heading: "Opportunities",
       lede:
-        "Visa sponsorship, remote roles, and freshly funded startups — searchable in one place instead of a pile of Google Sheets.",
+        "You are looking for work abroad. These lists help you get your bearings: who sponsors a visa, who hires fully remote, which startups just raised — and where to focus your applications.",
       disclaimer:
-        "A static snapshot of public lists. Genu does not run a job board and does not verify openings. Always check the company careers page before you apply. Sources are third-party spreadsheets; we are not affiliated with their authors.",
-      searchLabel: "Search companies",
-      searchPlaceholder: "Search company, city, stack, visa…",
+        "Start with the group that matches your constraint (visa, remote, or freshly funded startups). In each list, search a city, a stack, or a name, then open the careers page: that is what tells you whether a role is still open.",
+      searchLabel: "Filter the list",
+      searchPlaceholder: "City, stack, visa, company…",
       loading: "Loading lists…",
       loadingList: "Loading…",
       source: "Original spreadsheet",
@@ -87,7 +87,7 @@
       htmlLang: "fr",
       title: "Opportunités — Genu",
       description:
-        "Parcourir des entreprises tech qui sponsorisent un visa, des employeurs remote et des startups fraîchement financées — un instantané statique, plus simple à fouiller que les tableurs d’origine.",
+        "Te situer pour un poste à l’étranger : visas, remote, startups fraîchement financées — puis aller sur la page carrières.",
       navAbout: "À propos",
       navServices: "Services",
       navOpportunities: "Opportunités",
@@ -96,11 +96,11 @@
       navPrivacy: "Politique de confidentialité",
       heading: "Opportunités",
       lede:
-        "Sponsoring de visa, postes en remote et startups fraîchement financées — consultables au même endroit, sans enchaîner les Google Sheets.",
+        "Tu cherches à travailler à l’étranger. Ces listes t’aident à te situer : qui sponsorise un visa, qui recrute 100 % remote, quelles startups viennent de lever — et où concentrer tes candidatures.",
       disclaimer:
-        "Instantané statique de listes publiques. Genu n’est pas un job board et ne vérifie pas les offres. Vérifiez toujours la page carrières de l’entreprise avant de postuler. Les sources sont des tableurs tiers ; nous n’avons aucun lien avec leurs auteurs.",
-      searchLabel: "Rechercher des entreprises",
-      searchPlaceholder: "Entreprise, ville, stack, visa…",
+        "Commence par le groupe qui correspond à ta contrainte (visa, remote, ou startups fraîchement financées). Dans chaque liste, cherche une ville, une stack ou un nom, puis ouvre la page carrières : c’est elle qui dit si le poste est encore ouvert.",
+      searchLabel: "Filtrer la liste",
+      searchPlaceholder: "Ville, stack, visa, entreprise…",
       loading: "Chargement des listes…",
       loadingList: "Chargement…",
       source: "Tableur d’origine",
